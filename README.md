@@ -227,6 +227,12 @@ systemctl restart postgresql
 systemctl restart pdns
 systemctl status postgresql
 ```
+
+## pdns mini conf
+```
+pdns_server --no-config --daemon=no --local-port=5432 --launch=gpgsql --gpgsql-user=YOURUSERNAÖE --gpgsql-password=YOURPASSWORD
+```
+
 ```
 ● postgresql.service - PostgreSQL RDBMS
    Loaded: loaded (/lib/systemd/system/postgresql.service; enabled; vendor preset: enabled)
