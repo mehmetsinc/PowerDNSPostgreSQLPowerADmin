@@ -49,7 +49,7 @@ Install Powerdns 4.0.X
 You can get info at : https://repo.powerdns.com/
 Create the file '/etc/apt/sources.list.d/pdns.list' with this content:
 ```
-deb [arch=amd64] http://repo.powerdns.com/ubuntu xenial-auth-40 main
+ddeb [arch=amd64] http://repo.powerdns.com/ubuntu focal-auth-46 main
 ```
 
 And this to '/etc/apt/preferences.d/pdns':
