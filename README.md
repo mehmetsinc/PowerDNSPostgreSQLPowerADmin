@@ -230,7 +230,7 @@ systemctl status postgresql
 
 ## pdns mini conf
 ```
-pdns_server --no-config --daemon=no --local-port=5432 --launch=gpgsql --gpgsql-user=YOURUSERNAÖE --gpgsql-password=YOURPASSWORD
+pdns_server --no-config --daemon=no --local-port=5300 --launch=gpgsql --gpgsql-user=YOURUSERNAÖE --gpgsql-password=YOURPASSWORD
 ```
 
 ```
